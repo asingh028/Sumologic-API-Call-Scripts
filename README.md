@@ -11,4 +11,7 @@ Be Sure to have python3 installed along with "requests" library.
 This script will help formating the json data into tabular format in csv format for easy normalized visualization.
 
 # DeadCollector- Collector Management API
-This python code will help you find the dead Collectors and Delete the collectors would require other script DeleteCollectors.py.
+This python code will help you find the dead Collectors in Sumo Logic - DeadCollector.py.
+
+# Delete Collectors which are dead
+Use cautiously as this will be a permanent delete - DeleteCollectors.py.
