@@ -11,4 +11,4 @@ Be Sure to have python3 installed along with "requests" library.
 This script will help formating the json data into tabular format in csv format for easy normalized visualization.
 
 # DeadCollector- Collector Management API
-This python code will help you find the dead Collectors and Delete the collectors.
+This python code will help you find the dead Collectors and Delete the collectors would require other script DeleteCollectors.py.
