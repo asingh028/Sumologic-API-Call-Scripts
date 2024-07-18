@@ -1,5 +1,5 @@
 # Current CSE rules List can be exported
-This python code will help fetching the rules enabled ion your Cloud SIEM- getcseruleslist.py
+This python code will help fetching the rules enabled on your Cloud SIEM- getcseruleslist.py
 
 For the rules list which you are using in cloud SIEM, there is no direct way to get the list of rules with details- 
 
