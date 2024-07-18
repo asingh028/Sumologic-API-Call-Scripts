@@ -1,3 +1,5 @@
+#This is for the community support only
+
 # Current CSE rules List can be exported
 This python code will help fetching the rules enabled on your Cloud SIEM- getcseruleslist.py
 
@@ -15,5 +17,5 @@ This python code will help you find the dead Collectors in Sumo Logic - DeadColl
 https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
 
 # Delete Collectors which are dead
-Use cautiously as this will be a permanent delete - DeleteCollectors.py.
+Use cautiously as this will be a permanent delete the collectors - DeleteCollectors.py.
 https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
