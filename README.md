@@ -1,21 +1,24 @@
-#This is for the community support only
+#This is for the community support only: 
 
-# Current CSE rules List can be exported
-This python code will help fetching the rules enabled on your Cloud SIEM- getcseruleslist.py
+# How to use the Scripts
+- Specify the API URL and Basic Authentication credentials and "limit" value in api_url/script where ever it is
+- save these scripts as "py" file and run the script in IDLE or any processor you have.
+- Be Sure to have python3 installed along with "requests" library. 
+- This script will help formating the json data into tabular format in csv format for easy normalized visualization.
 
-For the rules list which you are using in cloud SIEM, there is no direct way to get the list of rules with details- 
+# Current CSE rules List can be exported - getcseruleslist.py
+This python code will help fetching the rules enabled on your Cloud SIEM. For the rules list which you are using in cloud SIEM, there is no direct way to get the list of rules with details
+Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetRules
 
-here is the end to end solution to that:
-
-Python Script to get Rules from CSE using API- update the following - 
-#Specify the API URL and Basic Authentication credentials and "limit" value in api_url if number of rules are more than 1000--> save this script as "py" file and run the script
-Be Sure to have python3 installed along with "requests" library. 
-This script will help formating the json data into tabular format in csv format for easy normalized visualization.
-
-# List the Dead Collector- using Collector Management API- Sumologic - 
+# List the Dead Collector- using Collector Management API- Sumologic - deadCollector.py
 This python code will help you find the dead Collectors in Sumo Logic - DeadCollector.py.
-https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
+Reference Doc: https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
 
-# Delete Collectors which are dead
+# Delete Collectors which are dead - DeleteCollectors.py
 Use cautiously as this will be a permanent delete the collectors - DeleteCollectors.py.
-https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
+Reference Doc: https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
+
+# APIthreatindicatorswithsource.py
+Script to export threat intel in CSE with the sources and indicators all together- might be helpful in providing a consolidate view of your threat intel sources and indicators- Use case is if you face indicators not been malicious but still generating signals, and you want to quickly identify the source of the indicator and since no export button is there yet in Cloud SIEM UI, you have to manually drill down on the sources. The Csv file you get from this API call script will give you consolidated view and quick reference to cleanup unnecessary indicators from the sources.
+Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatIntelIndicators
+               https://api.au.sumologic.com/docs/sec/#operation/GetThreatIntelligenceSources
