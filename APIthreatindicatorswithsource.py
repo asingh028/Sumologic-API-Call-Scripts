@@ -4,9 +4,9 @@ import base64
 import json
 
 # Replace with your Sumo Logic access ID, access key, and environment (like 'au', 'us', etc.)
-SUMO_ACCESS_ID = 'suiAtmT6Mr8q7c'
-SUMO_ACCESS_KEY = 'qVj86X5S0HIUZDXN5Ap13bdI8ztTe4E4PmVG3Wh1SjuknGx9botlBTZZxbP3FsZt'
-SUMO_ENVIRONMENT = 'api.us2.sumologic.com'  # Adjust for your environment
+SUMO_ACCESS_ID = '<access ID>'
+SUMO_ACCESS_KEY = '<access key>'
+SUMO_ENVIRONMENT = 'api.us2.sumologic.com'  # Adjust for your environment- For reference- https://help.sumologic.com/docs/cse/administration/cse-apis/
 
 # Base URLs for the APIs
 sources_base_url = f"https://{SUMO_ENVIRONMENT}/api/sec/v1/threat-intel-sources"
