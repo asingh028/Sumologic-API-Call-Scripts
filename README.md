@@ -4,7 +4,7 @@
 - Specify the API URL and Basic Authentication credentials and "limit" value in api_url/script where ever it is
 - save these scripts as "py" file and run the script in IDLE or any processor you have.
 - Be Sure to have python3 installed along with "requests" library. 
-- This script will help formating the json data into tabular format in csv format for easy normalized visualization.
+- These script will help formating the json data into tabular format in csv format for easy normalized visualization.
 
 # Current CSE rules List can be exported - getcseruleslist.py
 This python code will help fetching the rules enabled on your Cloud SIEM. For the rules list which you are using in cloud SIEM, there is no direct way to get the list of rules with details
