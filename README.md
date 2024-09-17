@@ -1,7 +1,7 @@
 ### These script are to support Sumo Logic community and not be deemed as official Sumo logic Documentation: 
 
 ## How to use the Scripts
-- Specify the API URL and Basic Authentication credentials and "limit" value in api_url/script where ever it is
+- Specify the API URL and Basic Authentication credentials and "limit" value in api_url/script where ever it is required.
 - save these scripts as "py" file and run the script in IDLE or any processor you have.
 - Be Sure to have python3 installed along with "requests" library. 
 - These script will help formating the json data into tabular format in csv format for easy normalized visualization.
