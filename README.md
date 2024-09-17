@@ -1,4 +1,4 @@
-### This is for the community support only: 
+### These script are to support Sumo Logic community and not be deemed as official Sumo logic Documentation: 
 
 ## How to use the Scripts
 - Specify the API URL and Basic Authentication credentials and "limit" value in api_url/script where ever it is
