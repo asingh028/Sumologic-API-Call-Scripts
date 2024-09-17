@@ -10,8 +10,11 @@
 This python code will help fetching the rules enabled on your Cloud SIEM. For the rules list which you are using in cloud SIEM, there is no direct way to get the list of rules with details
 Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetRules
 
+# All collector list from Collector Page- AllCollectors.py
+This python script can import the list of all collectors in the collection page with Status, type and Name to a file name "collectors_with_status"
+
 # List the Dead Collector- using Collector Management API- Sumologic - deadCollector.py
-This python code will help you find the dead Collectors in Sumo Logic.
+This python script will help you find the dead Collectors in Sumo Logic.
 Reference Doc: https://help.sumologic.com/docs/api/collector-management/collector-api-methods-examples/
 
 # Delete Collectors which are dead - DeleteCollectors.py
