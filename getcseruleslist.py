@@ -20,7 +20,7 @@ def flatten_nested_json(json_data):
     return flattened_data
 
 # Specify the API URL and Basic Authentication credentials- url used here is for Mumbai deployment
-api_url = 'https://api.in.sumologic.com/api/sec/v1/rules?limit=1000'
+api_url = 'https://api.[your deployment].sumologic.com/api/sec/v1/rules?limit=1000' # For deployment please refer this doc: https://www.sumologic.com/help/docs/api/cloud-siem-enterprise/#documentation
 username = 'accessid'
 password = 'Accesskey'
 
