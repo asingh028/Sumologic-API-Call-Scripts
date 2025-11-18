@@ -12,7 +12,9 @@ Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetRules
 Make Sure that you correctly replace the following lines in the code
 
 _api_url = 'https://api.[yourdeployment].sumologic.com/api/sec/v1/rules?limit=1000' # For deployment please refer this doc: https://www.sumologic.com/help/docs/api/cloud-siem-enterprise/#documentation
+
 username = 'accessid'
+
 password = 'Accesskey'_
 
 #### All collector list from Collector Page- [AllCollectors.py](https://github.com/asingh028/Sumologic-API-Call-Scripts/blob/main/AllCollectors.py)
