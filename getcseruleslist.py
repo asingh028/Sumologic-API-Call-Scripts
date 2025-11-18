@@ -19,8 +19,8 @@ def flatten_nested_json(json_data):
         flattened_data.append(flatten_json(obj))
     return flattened_data
 
-# Specify the API URL and Basic Authentication credentials
-api_url = 'https://api.[your deployment].sumologic.com/api/sec/v1/rules?limit=1000' # For deployment please refer this doc: https://www.sumologic.com/help/docs/api/cloud-siem-enterprise/#documentation
+# Specify the API URL and Basic Authentication credentials. For deployment please refer this doc: https://www.sumologic.com/help/docs/api/cloud-siem-enterprise/#documentation
+api_url = 'https://api.[your deployment].sumologic.com/api/sec/v1/rules?limit=1000'
 username = 'accessid'
 password = 'Accesskey'
 
